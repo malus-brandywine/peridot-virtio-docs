@@ -1,0 +1,111 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="jcd9gJ3Uz6LVE6VSDzEq">
+    <mxGraphModel dx="1532" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="630" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tRiwBVnWmVBg8pNJfK46-4" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry width="820" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-16" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;seL4-based&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Hypervisor&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="120" y="180" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-17" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7g6gz2mXIXyFqca_CKeV-16" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-14" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Guest OS&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="120" width="240" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-15" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7g6gz2mXIXyFqca_CKeV-14" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-3" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b&gt;Peridot Virtio&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b&gt;Console&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Stub Device&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="160" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-4" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7g6gz2mXIXyFqca_CKeV-3" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-5" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Peridot&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Virtio Core&lt;/b&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="160" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7g6gz2mXIXyFqca_CKeV-5" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-7" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b&gt;Virtio Console&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Driver&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-8" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7g6gz2mXIXyFqca_CKeV-7" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-9" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;User Space&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;App&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="200" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-10" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7g6gz2mXIXyFqca_CKeV-9" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-11" value="&lt;p style=&quot;margin: 6px 0px 0px; text-align: center; line-height: 100%;&quot;&gt;&lt;b&gt;Virtio Subsystem&lt;/b&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="520" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-12" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="7g6gz2mXIXyFqca_CKeV-11" vertex="1">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-18" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="7g6gz2mXIXyFqca_CKeV-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-19" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="599.63" y="360" as="sourcePoint" />
+            <mxPoint x="599.63" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239.63" y="360" as="sourcePoint" />
+            <mxPoint x="239.63" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-22" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="240" y="440" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-23" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Virtualization mechanisms&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="320" y="500" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-24" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="440" as="sourcePoint" />
+            <mxPoint x="240" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7g6gz2mXIXyFqca_CKeV-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="440" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tRiwBVnWmVBg8pNJfK46-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Use of Virtio Console Stub Device. Component Diagram&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="224" y="40" width="376" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tRiwBVnWmVBg8pNJfK46-3" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;©&amp;nbsp;&lt;/span&gt;Nataliya Korovkina&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2024-2025 – CC BY 4.0&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;docs.kernels-abreeze.dev&lt;/font&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=#4D4D4D;" vertex="1" parent="1">
+          <mxGeometry x="560" y="570" width="250" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
